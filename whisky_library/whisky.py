@@ -1,8 +1,9 @@
 from .alcohol import Alcohol
 
 
-class Whisky(Alcohol):
-
+class Whisky(Alcohol):  
+    
+    
     def __init__(
         self,
         name,

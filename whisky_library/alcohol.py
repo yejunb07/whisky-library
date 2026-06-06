@@ -1,6 +1,12 @@
 class Alcohol:
     """
-    Base alcohol class.
+    Base class for alcoholic beverages.
+
+    Attributes:
+        name (str): Beverage name
+        abv (float): Alcohol by volume
+        volume (int): Volume in ml
+        price (int): Price in KRW
     """
 
     def __init__(

@@ -38,3 +38,14 @@ class Whisky(Alcohol):
             == "bourbon"
         )
     
+    def is_scotch(self):
+        return (
+            self.whisky_type.lower()
+            == "scotch"
+        )
+    
+    def is_japanese(self):
+        return (
+            self.country.lower()
+            == "japan"
+        )

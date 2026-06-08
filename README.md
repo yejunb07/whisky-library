@@ -16,7 +16,7 @@ A Python package for managing whisky collections.
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/yejunb07/whisky-library.git>
 ```
 
 Move to the project directory:

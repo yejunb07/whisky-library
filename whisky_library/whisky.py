@@ -1,11 +1,11 @@
 from .alcohol import Alcohol
 
 
-class Whisky(Alcohol):  
+class Whisky(Alcohol):
     """
     Represents a whisky object.
     """
-     
+
     def __init__(
         self,
         name,
@@ -28,7 +28,6 @@ class Whisky(Alcohol):
         self.country = country
         self.whisky_type = whisky_type
 
-
         if not self._validate_abv():
             raise ValueError(
                 "ABV must be between 0 and 100."
@@ -50,7 +49,7 @@ class Whisky(Alcohol):
     """
     Check whether the whisky is bourbon.
     """
-    
+
     def is_single_malt(self):
         return (
             self.whisky_type.lower()
@@ -59,7 +58,7 @@ class Whisky(Alcohol):
     """
     Check whether the whisky is single malt.
     """
-    
+
     def is_blended(self):
         return (
             self.whisky_type.lower()

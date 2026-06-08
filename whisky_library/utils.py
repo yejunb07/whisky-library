@@ -11,19 +11,17 @@ class WhiskyLibrary:
     Add a whisky to the collection.
     """
         self.whiskies.append(whisky)
-        
 
     def remove_whisky(self, name):
         """
     Remove a whisky by name.
     """
         self.whiskies = [
-             whisky
-             for whisky in self.whiskies
-             if whisky.name != name
+            whisky
+            for whisky in self.whiskies
+            if whisky.name != name
         ]
-        
-        
+
     def search_by_country(self, country):
         """
     Search whiskies by country.
@@ -34,7 +32,7 @@ class WhiskyLibrary:
             if whisky.country.lower()
             == country.lower()
         ]
-    
+
     def average_abv(self):
         """
     Calculate average ABV.
@@ -48,7 +46,7 @@ class WhiskyLibrary:
             )
             / len(self.whiskies)
         )
-    
+
     def total_value(self):
         """
     Calculate total collection value.
@@ -57,7 +55,7 @@ class WhiskyLibrary:
             whisky.price
             for whisky in self.whiskies
         )
-    
+
     def most_expensive(self):
         """
     Return the most expensive whisky.

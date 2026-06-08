@@ -32,7 +32,7 @@ class Alcohol:
             f"{self.name} "
             f"({self.abv}% ABV)"
         )
-    
+
     def alcohol_content(self):
         """
     Calculate pure alcohol content.

@@ -95,4 +95,7 @@ whisky_library_project
 
 ## Author
 
-Computer Engineering Student
+- 이름: 김예준
+- 학번: 202620849
+- 이메일: firebird0301@gmail.com
+- 과목: Python 프로그래밍

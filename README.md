@@ -1,22 +1,22 @@
 # Whisky Library
 
-A Python package for managing whisky collections.
+위스키 관리 프로그램
 
 ## Features
 
-* Add whisky to collection
-* Remove whisky from collection
-* Search whisky by country
-* Calculate average ABV
-* Calculate total collection value
-* Find the most expensive whisky
+* 위스키 컬렉션 추가
+* 위스키 컬렉션 삭제
+* 위스키 국가별 검색
+* 평균 도수 계산
+* 총 가격 계산
+* 가장 비싼 위스키 검색
 
 ## Installation
 
 Clone the repository:
 
 ```bash
-git clone <https://github.com/yejunb07/whisky-library.git>
+git clone https://github.com/yejunb07/whisky-library.git
 ```
 
 Move to the project directory:

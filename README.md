@@ -70,7 +70,7 @@ pytest
 Expected result:
 
 ```text
-9 passed
+12 passed
 ```
 
 ## Project Structure

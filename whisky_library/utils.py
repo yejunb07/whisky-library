@@ -63,8 +63,12 @@ class WhiskyLibrary:
     def total_value(self):
         """컬렉션의 총 가치를 계산한다.
 
-        :return: 총 가격 합계 원 (int)
-        """
+    :return: 총 가격 합계 원 (int)
+
+    >>> lib = WhiskyLibrary()
+    >>> lib.total_value()
+    0
+    """
         return sum(whisky.price for whisky in self.whiskies)
 
     def most_expensive(self):

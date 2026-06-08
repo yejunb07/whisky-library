@@ -17,14 +17,5 @@ def test_create_whisky():
 
 
 def test_bourbon():
-
-    whisky = Whisky(
-        "Woodford Reserve",
-        43.2,
-        750,
-        68000,
-        "USA",
-        "Bourbon"
-    )
-
-    assert whisky.is_bourbon()
+    whisky = Whisky("Woodford Reserve", 43.2, 750, 68000, "USA", "Bourbon")
+    assert whisky.is_type("bourbon")

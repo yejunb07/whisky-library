@@ -66,5 +66,5 @@ class Whisky(Alcohol):
             == "japan"
         )
     """
-    Check whether the whisky is japanese.
+    Check whether the whisky's country is japanese.
     """

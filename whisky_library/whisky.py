@@ -34,36 +34,37 @@ class Whisky(Alcohol):
             )
 
     def _validate_abv(self):
+        """ABV가 0~100 사이인지 검증한다.
+
+    :return: 유효하면 True, 아니면 False (bool)
+    """
         return (
             0 <= self.abv <= 100
         )
-    """
-    Validate ABV range.
-    """
 
     def is_bourbon(self):
+        """
+    Check whether the whisky is bourbon.
+    """
         return (
             self.whisky_type.lower()
             == "bourbon"
         )
-    """
-    Check whether the whisky is bourbon.
-    """
 
     def is_single_malt(self):
+        """
+    Check whether the whisky is single malt.
+    """
         return (
             self.whisky_type.lower()
             == "single malt"
         )
-    """
-    Check whether the whisky is single malt.
-    """
 
     def is_blended(self):
+        """
+    Check whether the whisky is blended.
+    """
         return (
             self.whisky_type.lower()
             == "blended"
         )
-    """
-    Check whether the whisky is blended.
-    """

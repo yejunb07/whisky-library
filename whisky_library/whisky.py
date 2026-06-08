@@ -51,20 +51,20 @@ class Whisky(Alcohol):
     Check whether the whisky is bourbon.
     """
     
-    def is_scotch(self):
+    def is_single_malt(self):
         return (
             self.whisky_type.lower()
-            == "scotch"
+            == "single malt"
         )
     """
-    Check whether the whisky is scotch.
+    Check whether the whisky is single malt.
     """
     
-    def is_japanese(self):
+    def is_blended(self):
         return (
-            self.country.lower()
-            == "japan"
+            self.whisky_type.lower()
+            == "blended"
         )
     """
-    Check whether the whisky's country is japanese.
+    Check whether the whisky is blended.
     """
